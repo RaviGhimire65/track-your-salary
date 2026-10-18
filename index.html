@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>track your salary </title>
+    <title >track your salary </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1> welcome to track your salary</h1>
@@ -14,29 +15,31 @@
         <input type="number" id="withdrawl"><br><br>
         <label for ="purpose">PURPOSE:</label>
         <select id="purpose">
+            <option value="">Select Your Purpose</option>
             <option value="utility">Utility</option>
             <option value="Food & bebrages">food & bebrages</option>
             <option value="ride sharing">ride sharing</option>
             <option value="enjoyment">enjoyment</option>
             <option value="savings">savings</option>
         </select>
+        </div>
         <div class="buttons">
             <button type="button" id="deposit">ADD</button>
             <button type="button" id="cancel">cancel</button>
+            </div>
 
-        </div>
     <div class="dashboard">
         <label for="Total-balance">Total Balance:</label>
         <input type="text" id="Total-balance" readonly><br><br>
         <label for ="deducted">Deducted balance:</label>
         <input type="text" id="deducted" readonly><br><br>
-        <label for ="savings">Savings:</label><br><br>
+        <label for ="savings">Savings:</label>
+        <input type="text" id="savings" readonly><br><br>
+        </div>
     <div class="divide">
         <a href="./ai-salary.html">Ai salary divider</a>
     </div>
-    </div>
-
-    </div>
+    
     
 </body>
 </html>
